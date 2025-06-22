@@ -1,0 +1,66 @@
+.navi {
+  background-color: oklch(49.1% 0.27 292.581);
+}
+.navimenu{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+.container{
+  background-color: oklch(89.4% 0.057 293.283);
+}
+
+@media screen and (max-width:768px) {
+  .container-task{
+    width: 100%;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: oklch(89.4% 0.057 293.283);
+    
+     
+  }
+  .container-task1{
+  height: 6dvh;
+  width: 95%;
+  }
+  input{
+    height: 100%;
+    width: 75%;
+    border: none;
+    
+  }
+  .navi{
+    display: flex;
+    flex-direction: column;
+  }
+  .navititle{
+    border-bottom: whitesmoke 1px solid;
+  }
+  h4{
+    color: rgb(128, 216, 93);
+    animation-name: titleanmi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  .container-footer{
+    background-color: oklch(49.1% 0.27 292.581);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 2px;
+    
+  }
+  Button{
+    font-weight: 800;
+  }
+  @keyframes titleanmi {
+    0%{color:rgb(128, 216, 93)}
+    25%{color: rgb(200, 29, 120);}
+    75%{color: rgb(210, 59, 8);}
+    100%{color: rgb(88, 206, 42);}
+  }
+
+}
