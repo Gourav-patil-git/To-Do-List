@@ -1,10 +1,12 @@
 import React from "react";
 import"../index.css"
+// import image from "../assets/white todo.png"
 
 export const List = () =>{
     return(
-        <>
-        <div className="container-task rounded-1  pt-3 ps-5 pb-4 ">
+        <><div className="container-list">
+            {/* <img src={image} alt="background image" /> */}
+            <div className="container-task rounded-1  pt-3 ps-5 pb-4 ">
             <h5 className="fw-bolder pb-2
                 ">To-Do-List</h5>
             <div className="container-task1 bg-white rounded-3">
@@ -21,6 +23,8 @@ export const List = () =>{
             </div>
             
         </div>
+        </div>
+        
 
         </>
     )
